@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.add_development_dependency("mocha", ["~> 0.9.8"])
   s.add_development_dependency("shoulda", ["~> 2.11.3"])
   s.add_runtime_dependency("hashie", ["~> 0.4.0"])
-  s.add_runtime_dependency("httparty", ["~> 0.6.1"])
+  s.add_runtime_dependency("httparty", ["~> 0.8.1"])
   s.add_runtime_dependency("oauth", ["~> 0.4.3"])
-  s.add_runtime_dependency("multi_json", ["~> 0.0.4"])
+  s.add_runtime_dependency("multi_json", ["~> 1.0.4"])
   s.authors = ["John Nunemaker", "Wynn Netherland", "Erik Michaels-Ober"]
   s.description = %q{Ruby wrapper for the Twitter API}
   s.email = ["nunemaker@gmail.com"]
